@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #1c1c1c;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  #gameCanvas {
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+    border: 1px solid #ade498;
+    background-color: #1c1c1c;
+  }
+  
+  #scoreboard {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #scoreboard h2 {
+    font-size: 28px;
+    font-weight: 400;
+    color: #ade498;
+    margin-bottom: 10px;
+  }
+  
+  #scoreboard span {
+    font-weight: 600;
+    color: #72bf44;
+  }
+  
+  #restartButton {
+    background-color: #72bf44;
+    color: #1c1c1c;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  #restartButton:hover {
+    background-color: #ade498;
+    color: #1c1c1c;
+  }
+  
